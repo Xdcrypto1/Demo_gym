@@ -1,21 +1,22 @@
-import { FaDumbbell, FaUserCheck, FaClock } from "react-icons/fa";
+import { FaUserCheck } from "react-icons/fa";
+import { BsGraphUpArrow, BsCashCoin } from "react-icons/bs";
 import SectionHeading from "../ui/SectionHeading";
 
 const features = [
   {
-    title: "Modern Equipment",
-    desc: "Top-quality machines and free weights.",
-    icon: <FaDumbbell />,
+    title: "More Member Sign-Ups",
+    desc: "Turn visitors into paying members with a clear, simple online system.",
+    icon: <BsCashCoin />,
   },
   {
-    title: "Expert Trainers",
-    desc: "Certified professionals to guide you.",
+    title: " 24/7 Booking System",
+    desc: "Let clients book sessions anytime without calling or waiting.",
     icon: <FaUserCheck />,
   },
   {
-    title: "Flexible Schedule",
-    desc: "Train at your own pace, anytime.",
-    icon: <FaClock />,
+    title: "Professional Online Presence",
+    desc: "Make your gym look trustworthy and modern instantly",
+    icon: <BsGraphUpArrow/>,
   },
 ];
 

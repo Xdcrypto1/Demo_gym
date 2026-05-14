@@ -11,8 +11,8 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* Brand */}
-        <div className="text-2xl font-bold text-black">
-          Gym<span className="text-red-600">Pro</span>
+        <div className="text-2xl font-bold text-blue-300">
+          La'Bompa<span className="text-black"> Fitness</span>
         </div>
 
         {/* Desktop Links */}
@@ -35,7 +35,7 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop CTA */}
-        <button className="hidden md:block bg-red-600 text-white px-5 py-2 rounded-full hover:bg-red-700 transition">
+        <button className="hidden md:block bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-500 transition">
           Join Now
         </button>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
              <li className="hover:text-red-600 cursor-pointer">Gallery</li>
             </Link>
 
-            <button className="bg-red-600 text-white px-8 py-3 rounded-full hover:bg-red-700 transition">
+            <button className="bg-green-500 text-white px-8 py-3 rounded-full hover:bg-blue-500 transition">
               Join Now
             </button>
           </ul>

@@ -1,6 +1,6 @@
 import { FaCheckCircle } from "react-icons/fa";
 
-const PlanCard = ({ title, price, features, highlight }) => {
+const PlanCard = ({ title, price, features, highlight, onChoose }) => {
   return (
     <div
       className={`rounded-2xl p-8 shadow-lg border transition
@@ -20,6 +20,7 @@ const PlanCard = ({ title, price, features, highlight }) => {
       </ul>
 
       <button
+        onClick={onChoose}
         className={`w-full py-3 rounded-full font-semibold transition
           ${
             highlight
